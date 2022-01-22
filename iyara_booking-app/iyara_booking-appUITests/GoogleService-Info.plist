@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>719970570017-ldmt3pq67uagkodsj5ttd1a7i3fsjdh3.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.719970570017-ldmt3pq67uagkodsj5ttd1a7i3fsjdh3</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBosIsaP2qxYv-NZ6HhCGI_vZv98W8RHEI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>719970570017</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.pacific-kai.ExpandConnect.iyara-booking-app</string>
+	<key>PROJECT_ID</key>
+	<string>iyarabookingapp</string>
+	<key>STORAGE_BUCKET</key>
+	<string>iyarabookingapp.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:719970570017:ios:07d70a5b73b265f3cc7860</string>
+</dict>
+</plist>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BiI-aZ-W43">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Help-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MessageVC" customModule="iyara_booking_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="tertiaryLabelColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Help" image="message.fill" catalog="system" id="Z65-Hn-pZC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2101.449275362319" y="1007.8125"/>
+        </scene>
+        <!--reservation-->
+        <scene sceneID="Dik-1U-Cet">
+            <objects>
+                <viewController id="zqU-Eu-n57" customClass="ReservationVC" customModule="iyara_booking_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vhm-PZ-dw1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="l2Q-IZ-6E8"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="reservation" image="calendar.badge.clock.rtl" catalog="system" id="nVW-9B-oLr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="20b-ax-GpY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1194" y="507"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="33s-uF-br0">
+            <objects>
+                <viewController id="4j1-2j-z9Z" customClass="HomeVC" customModule="iyara_booking_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mK7-aK-NOa">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MTD-uJ-ofv">
+                                <rect key="frame" x="-193" y="-387" width="800" height="1200"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="CPm-0f-1Kd"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="yeR-Vh-gtG"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="NNj-5w-O68"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstItem="NNj-5w-O68" firstAttribute="bottom" secondItem="MTD-uJ-ofv" secondAttribute="bottom" id="FtD-Kh-35C"/>
+                            <constraint firstItem="NNj-5w-O68" firstAttribute="trailing" secondItem="MTD-uJ-ofv" secondAttribute="trailing" id="dZ8-QM-hpQ"/>
+                            <constraint firstItem="MTD-uJ-ofv" firstAttribute="top" secondItem="NNj-5w-O68" secondAttribute="top" id="suP-V0-r5j"/>
+                            <constraint firstItem="MTD-uJ-ofv" firstAttribute="leading" secondItem="NNj-5w-O68" secondAttribute="leading" id="y1O-mX-cGN"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="Nkn-if-c9c"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q2z-ML-ccW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1504.3478260869567" y="-207.58928571428569"/>
+        </scene>
+        <!--Custom Tab Bar Controller-->
+        <scene sceneID="9YE-L6-zyB">
+            <objects>
+                <tabBarController id="BiI-aZ-W43" customClass="CustomTabBarController" customModule="iyara_booking_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5lc-KU-bxK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.67450980390000004" green="0.52380137930000004" blue="0.051047419589999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="initialIndex">
+                            <integer key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <segue destination="4j1-2j-z9Z" kind="relationship" relationship="viewControllers" id="LWl-Ee-Ory"/>
+                        <segue destination="zqU-Eu-n57" kind="relationship" relationship="viewControllers" id="ciZ-HY-k2j"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Mof-qy-Wd4"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bti-Q9-6od" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2591" y="267"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="calendar.badge.clock.rtl" catalog="system" width="128" height="108"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="message.fill" catalog="system" width="128" height="113"/>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

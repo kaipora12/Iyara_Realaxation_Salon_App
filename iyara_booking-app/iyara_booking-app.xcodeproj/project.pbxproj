@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64EFED42C002BB0331D42E94 /* Pods_iyara_booking_appTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40712C48AAF16F837108C0B2 /* Pods_iyara_booking_appTests.framework */; };
+		66BF99608B98EEE866FA7CB4 /* Pods_iyara_booking_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4109B88086567C1BFE31D8 /* Pods_iyara_booking_app.framework */; };
+		AD5AD39B83A8A6D275A96DB2 /* Pods_iyara_booking_app_iyara_booking_appUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7710AEDF8074A9737651FC71 /* Pods_iyara_booking_app_iyara_booking_appUITests.framework */; };
+		CE843CE4277C4FE800DA2DBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE843CE3277C4FE800DA2DBD /* AppDelegate.swift */; };
+		CE843CE6277C4FE800DA2DBD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE843CE5277C4FE800DA2DBD /* SceneDelegate.swift */; };
+		CE843CE8277C4FE800DA2DBD /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE843CE7277C4FE800DA2DBD /* HomeVC.swift */; };
+		CE843CEB277C4FE800DA2DBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE843CE9277C4FE800DA2DBD /* Main.storyboard */; };
+		CE843CED277C4FEA00DA2DBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE843CEC277C4FEA00DA2DBD /* Assets.xcassets */; };
+		CE843CF0277C4FEA00DA2DBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE843CEE277C4FEA00DA2DBD /* LaunchScreen.storyboard */; };
+		CE843CFB277C4FEA00DA2DBD /* iyara_booking_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE843CFA277C4FEA00DA2DBD /* iyara_booking_appTests.swift */; };
+		CE843D05277C4FEA00DA2DBD /* iyara_booking_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE843D04277C4FEA00DA2DBD /* iyara_booking_appUITests.swift */; };
+		CE843D07277C4FEA00DA2DBD /* iyara_booking_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE843D06277C4FEA00DA2DBD /* iyara_booking_appUITestsLaunchTests.swift */; };
+		CE843D14277C533E00DA2DBD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE843D13277C533E00DA2DBD /* GoogleService-Info.plist */; };
+		CE843D16278FF69A00DA2DBD /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE843D15278FF69A00DA2DBD /* CustomTabBarController.swift */; };
+		CE843D18278FFC4800DA2DBD /* MessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE843D17278FFC4800DA2DBD /* MessageVC.swift */; };
+		CE843D1A278FFD0300DA2DBD /* ReservationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE843D19278FFD0300DA2DBD /* ReservationVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE843CF7277C4FEA00DA2DBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE843CD8277C4FE700DA2DBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE843CDF277C4FE800DA2DBD;
+			remoteInfo = "iyara_booking-app";
+		};
+		CE843D01277C4FEA00DA2DBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE843CD8277C4FE700DA2DBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE843CDF277C4FE800DA2DBD;
+			remoteInfo = "iyara_booking-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FCDF17DD89D73F67E271D9D /* Pods-iyara_booking-appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iyara_booking-appTests.debug.xcconfig"; path = "Target Support Files/Pods-iyara_booking-appTests/Pods-iyara_booking-appTests.debug.xcconfig"; sourceTree = "<group>"; };
+		40712C48AAF16F837108C0B2 /* Pods_iyara_booking_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iyara_booking_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59D0FA461963AD39C9761A1E /* Pods-iyara_booking-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iyara_booking-app.debug.xcconfig"; path = "Target Support Files/Pods-iyara_booking-app/Pods-iyara_booking-app.debug.xcconfig"; sourceTree = "<group>"; };
+		7710AEDF8074A9737651FC71 /* Pods_iyara_booking_app_iyara_booking_appUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iyara_booking_app_iyara_booking_appUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B76746652B48CEBDC2E1DEA4 /* Pods-iyara_booking-app-iyara_booking-appUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iyara_booking-app-iyara_booking-appUITests.release.xcconfig"; path = "Target Support Files/Pods-iyara_booking-app-iyara_booking-appUITests/Pods-iyara_booking-app-iyara_booking-appUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B794FB65EEFB9D11DF1CD142 /* Pods-iyara_booking-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iyara_booking-app.release.xcconfig"; path = "Target Support Files/Pods-iyara_booking-app/Pods-iyara_booking-app.release.xcconfig"; sourceTree = "<group>"; };
+		CE843CE0277C4FE800DA2DBD /* iyara_booking-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iyara_booking-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE843CE3277C4FE800DA2DBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE843CE5277C4FE800DA2DBD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE843CE7277C4FE800DA2DBD /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		CE843CEA277C4FE800DA2DBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE843CEC277C4FEA00DA2DBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE843CEF277C4FEA00DA2DBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE843CF1277C4FEA00DA2DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE843CF6277C4FEA00DA2DBD /* iyara_booking-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iyara_booking-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE843CFA277C4FEA00DA2DBD /* iyara_booking_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iyara_booking_appTests.swift; sourceTree = "<group>"; };
+		CE843D00277C4FEA00DA2DBD /* iyara_booking-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iyara_booking-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE843D04277C4FEA00DA2DBD /* iyara_booking_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iyara_booking_appUITests.swift; sourceTree = "<group>"; };
+		CE843D06277C4FEA00DA2DBD /* iyara_booking_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iyara_booking_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE843D13277C533E00DA2DBD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CE843D15278FF69A00DA2DBD /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		CE843D17278FFC4800DA2DBD /* MessageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageVC.swift; sourceTree = "<group>"; };
+		CE843D19278FFD0300DA2DBD /* ReservationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationVC.swift; sourceTree = "<group>"; };
+		D5A49F1741754E6B6A214CA3 /* Pods-iyara_booking-app-iyara_booking-appUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iyara_booking-app-iyara_booking-appUITests.debug.xcconfig"; path = "Target Support Files/Pods-iyara_booking-app-iyara_booking-appUITests/Pods-iyara_booking-app-iyara_booking-appUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E517EF2DF0026DA1328E646A /* Pods-iyara_booking-appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iyara_booking-appTests.release.xcconfig"; path = "Target Support Files/Pods-iyara_booking-appTests/Pods-iyara_booking-appTests.release.xcconfig"; sourceTree = "<group>"; };
+		FC4109B88086567C1BFE31D8 /* Pods_iyara_booking_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iyara_booking_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE843CDD277C4FE800DA2DBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BF99608B98EEE866FA7CB4 /* Pods_iyara_booking_app.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE843CF3277C4FEA00DA2DBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64EFED42C002BB0331D42E94 /* Pods_iyara_booking_appTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE843CFD277C4FEA00DA2DBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5AD39B83A8A6D275A96DB2 /* Pods_iyara_booking_app_iyara_booking_appUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86F18F5C0406790C3493980F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC4109B88086567C1BFE31D8 /* Pods_iyara_booking_app.framework */,
+				7710AEDF8074A9737651FC71 /* Pods_iyara_booking_app_iyara_booking_appUITests.framework */,
+				40712C48AAF16F837108C0B2 /* Pods_iyara_booking_appTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF4DDB7DB4BE779D591F0C72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59D0FA461963AD39C9761A1E /* Pods-iyara_booking-app.debug.xcconfig */,
+				B794FB65EEFB9D11DF1CD142 /* Pods-iyara_booking-app.release.xcconfig */,
+				D5A49F1741754E6B6A214CA3 /* Pods-iyara_booking-app-iyara_booking-appUITests.debug.xcconfig */,
+				B76746652B48CEBDC2E1DEA4 /* Pods-iyara_booking-app-iyara_booking-appUITests.release.xcconfig */,
+				1FCDF17DD89D73F67E271D9D /* Pods-iyara_booking-appTests.debug.xcconfig */,
+				E517EF2DF0026DA1328E646A /* Pods-iyara_booking-appTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE843CD7277C4FE700DA2DBD = {
+			isa = PBXGroup;
+			children = (
+				CE843CE2277C4FE800DA2DBD /* iyara_booking-app */,
+				CE843CF9277C4FEA00DA2DBD /* iyara_booking-appTests */,
+				CE843D03277C4FEA00DA2DBD /* iyara_booking-appUITests */,
+				CE843CE1277C4FE800DA2DBD /* Products */,
+				AF4DDB7DB4BE779D591F0C72 /* Pods */,
+				86F18F5C0406790C3493980F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE843CE1277C4FE800DA2DBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE843CE0277C4FE800DA2DBD /* iyara_booking-app.app */,
+				CE843CF6277C4FEA00DA2DBD /* iyara_booking-appTests.xctest */,
+				CE843D00277C4FEA00DA2DBD /* iyara_booking-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE843CE2277C4FE800DA2DBD /* iyara_booking-app */ = {
+			isa = PBXGroup;
+			children = (
+				CE843CE3277C4FE800DA2DBD /* AppDelegate.swift */,
+				CE843CE5277C4FE800DA2DBD /* SceneDelegate.swift */,
+				CE843CE7277C4FE800DA2DBD /* HomeVC.swift */,
+				CE843D17278FFC4800DA2DBD /* MessageVC.swift */,
+				CE843D19278FFD0300DA2DBD /* ReservationVC.swift */,
+				CE843CE9277C4FE800DA2DBD /* Main.storyboard */,
+				CE843D15278FF69A00DA2DBD /* CustomTabBarController.swift */,
+				CE843CEC277C4FEA00DA2DBD /* Assets.xcassets */,
+				CE843CEE277C4FEA00DA2DBD /* LaunchScreen.storyboard */,
+				CE843CF1277C4FEA00DA2DBD /* Info.plist */,
+			);
+			path = "iyara_booking-app";
+			sourceTree = "<group>";
+		};
+		CE843CF9277C4FEA00DA2DBD /* iyara_booking-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE843CFA277C4FEA00DA2DBD /* iyara_booking_appTests.swift */,
+			);
+			path = "iyara_booking-appTests";
+			sourceTree = "<group>";
+		};
+		CE843D03277C4FEA00DA2DBD /* iyara_booking-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE843D04277C4FEA00DA2DBD /* iyara_booking_appUITests.swift */,
+				CE843D06277C4FEA00DA2DBD /* iyara_booking_appUITestsLaunchTests.swift */,
+				CE843D13277C533E00DA2DBD /* GoogleService-Info.plist */,
+			);
+			path = "iyara_booking-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE843CDF277C4FE800DA2DBD /* iyara_booking-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE843D0A277C4FEA00DA2DBD /* Build configuration list for PBXNativeTarget "iyara_booking-app" */;
+			buildPhases = (
+				539510D8D75A5DDF8C6EA8C4 /* [CP] Check Pods Manifest.lock */,
+				CE843CDC277C4FE800DA2DBD /* Sources */,
+				CE843CDD277C4FE800DA2DBD /* Frameworks */,
+				CE843CDE277C4FE800DA2DBD /* Resources */,
+				674B0C4ED71341A08A25C5B7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iyara_booking-app";
+			productName = "iyara_booking-app";
+			productReference = CE843CE0277C4FE800DA2DBD /* iyara_booking-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE843CF5277C4FEA00DA2DBD /* iyara_booking-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE843D0D277C4FEA00DA2DBD /* Build configuration list for PBXNativeTarget "iyara_booking-appTests" */;
+			buildPhases = (
+				B18BA33242CCE3439D3A7AB8 /* [CP] Check Pods Manifest.lock */,
+				CE843CF2277C4FEA00DA2DBD /* Sources */,
+				CE843CF3277C4FEA00DA2DBD /* Frameworks */,
+				CE843CF4277C4FEA00DA2DBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE843CF8277C4FEA00DA2DBD /* PBXTargetDependency */,
+			);
+			name = "iyara_booking-appTests";
+			productName = "iyara_booking-appTests";
+			productReference = CE843CF6277C4FEA00DA2DBD /* iyara_booking-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE843CFF277C4FEA00DA2DBD /* iyara_booking-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE843D10277C4FEA00DA2DBD /* Build configuration list for PBXNativeTarget "iyara_booking-appUITests" */;
+			buildPhases = (
+				C4A9A768086062F825128650 /* [CP] Check Pods Manifest.lock */,
+				CE843CFC277C4FEA00DA2DBD /* Sources */,
+				CE843CFD277C4FEA00DA2DBD /* Frameworks */,
+				CE843CFE277C4FEA00DA2DBD /* Resources */,
+				A904C8B66E4CC8C72957A788 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE843D02277C4FEA00DA2DBD /* PBXTargetDependency */,
+			);
+			name = "iyara_booking-appUITests";
+			productName = "iyara_booking-appUITests";
+			productReference = CE843D00277C4FEA00DA2DBD /* iyara_booking-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE843CD8277C4FE700DA2DBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					CE843CDF277C4FE800DA2DBD = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					CE843CF5277C4FEA00DA2DBD = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CE843CDF277C4FE800DA2DBD;
+					};
+					CE843CFF277C4FEA00DA2DBD = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CE843CDF277C4FE800DA2DBD;
+					};
+				};
+			};
+			buildConfigurationList = CE843CDB277C4FE700DA2DBD /* Build configuration list for PBXProject "iyara_booking-app" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE843CD7277C4FE700DA2DBD;
+			productRefGroup = CE843CE1277C4FE800DA2DBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE843CDF277C4FE800DA2DBD /* iyara_booking-app */,
+				CE843CF5277C4FEA00DA2DBD /* iyara_booking-appTests */,
+				CE843CFF277C4FEA00DA2DBD /* iyara_booking-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE843CDE277C4FE800DA2DBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE843CF0277C4FEA00DA2DBD /* LaunchScreen.storyboard in Resources */,
+				CE843CED277C4FEA00DA2DBD /* Assets.xcassets in Resources */,
+				CE843CEB277C4FE800DA2DBD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE843CF4277C4FEA00DA2DBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE843CFE277C4FEA00DA2DBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE843D14277C533E00DA2DBD /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		539510D8D75A5DDF8C6EA8C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iyara_booking-app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		674B0C4ED71341A08A25C5B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iyara_booking-app/Pods-iyara_booking-app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iyara_booking-app/Pods-iyara_booking-app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iyara_booking-app/Pods-iyara_booking-app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A904C8B66E4CC8C72957A788 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iyara_booking-app-iyara_booking-appUITests/Pods-iyara_booking-app-iyara_booking-appUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iyara_booking-app-iyara_booking-appUITests/Pods-iyara_booking-app-iyara_booking-appUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iyara_booking-app-iyara_booking-appUITests/Pods-iyara_booking-app-iyara_booking-appUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B18BA33242CCE3439D3A7AB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iyara_booking-appTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4A9A768086062F825128650 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iyara_booking-app-iyara_booking-appUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE843CDC277C4FE800DA2DBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE843CE8277C4FE800DA2DBD /* HomeVC.swift in Sources */,
+				CE843D1A278FFD0300DA2DBD /* ReservationVC.swift in Sources */,
+				CE843D18278FFC4800DA2DBD /* MessageVC.swift in Sources */,
+				CE843CE4277C4FE800DA2DBD /* AppDelegate.swift in Sources */,
+				CE843D16278FF69A00DA2DBD /* CustomTabBarController.swift in Sources */,
+				CE843CE6277C4FE800DA2DBD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE843CF2277C4FEA00DA2DBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE843CFB277C4FEA00DA2DBD /* iyara_booking_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE843CFC277C4FEA00DA2DBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE843D05277C4FEA00DA2DBD /* iyara_booking_appUITests.swift in Sources */,
+				CE843D07277C4FEA00DA2DBD /* iyara_booking_appUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE843CF8277C4FEA00DA2DBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE843CDF277C4FE800DA2DBD /* iyara_booking-app */;
+			targetProxy = CE843CF7277C4FEA00DA2DBD /* PBXContainerItemProxy */;
+		};
+		CE843D02277C4FEA00DA2DBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE843CDF277C4FE800DA2DBD /* iyara_booking-app */;
+			targetProxy = CE843D01277C4FEA00DA2DBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE843CE9277C4FE800DA2DBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE843CEA277C4FE800DA2DBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE843CEE277C4FEA00DA2DBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE843CEF277C4FEA00DA2DBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE843D08277C4FEA00DA2DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE843D09277C4FEA00DA2DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE843D0B277C4FEA00DA2DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59D0FA461963AD39C9761A1E /* Pods-iyara_booking-app.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2B22QWCFJN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iyara_booking-app/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pacific-kai.ExpandConnect.iyara-booking-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE843D0C277C4FEA00DA2DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B794FB65EEFB9D11DF1CD142 /* Pods-iyara_booking-app.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2B22QWCFJN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iyara_booking-app/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pacific-kai.ExpandConnect.iyara-booking-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE843D0E277C4FEA00DA2DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FCDF17DD89D73F67E271D9D /* Pods-iyara_booking-appTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2B22QWCFJN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pacific-kai.ExpandConnect.iyara-booking-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iyara_booking-app.app/iyara_booking-app";
+			};
+			name = Debug;
+		};
+		CE843D0F277C4FEA00DA2DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E517EF2DF0026DA1328E646A /* Pods-iyara_booking-appTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2B22QWCFJN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pacific-kai.ExpandConnect.iyara-booking-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iyara_booking-app.app/iyara_booking-app";
+			};
+			name = Release;
+		};
+		CE843D11277C4FEA00DA2DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5A49F1741754E6B6A214CA3 /* Pods-iyara_booking-app-iyara_booking-appUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2B22QWCFJN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pacific-kai.ExpandConnect.iyara-booking-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iyara_booking-app";
+			};
+			name = Debug;
+		};
+		CE843D12277C4FEA00DA2DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B76746652B48CEBDC2E1DEA4 /* Pods-iyara_booking-app-iyara_booking-appUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2B22QWCFJN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pacific-kai.ExpandConnect.iyara-booking-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iyara_booking-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE843CDB277C4FE700DA2DBD /* Build configuration list for PBXProject "iyara_booking-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE843D08277C4FEA00DA2DBD /* Debug */,
+				CE843D09277C4FEA00DA2DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE843D0A277C4FEA00DA2DBD /* Build configuration list for PBXNativeTarget "iyara_booking-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE843D0B277C4FEA00DA2DBD /* Debug */,
+				CE843D0C277C4FEA00DA2DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE843D0D277C4FEA00DA2DBD /* Build configuration list for PBXNativeTarget "iyara_booking-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE843D0E277C4FEA00DA2DBD /* Debug */,
+				CE843D0F277C4FEA00DA2DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE843D10277C4FEA00DA2DBD /* Build configuration list for PBXNativeTarget "iyara_booking-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE843D11277C4FEA00DA2DBD /* Debug */,
+				CE843D12277C4FEA00DA2DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE843CD8277C4FE700DA2DBD /* Project object */;
+}
